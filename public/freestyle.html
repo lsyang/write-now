@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)http://twitter.github.io/bootstrap/examples/starter-template.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>write('now')</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Scripts -->
+    <script src="resources/jquery/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="resources/moment.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/username.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/freestyle.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- Le styles -->
+    <link href="resources/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="resources/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="resources/bootstrap-select/bootstrap-select.css" rel="stylesheet">
+    <link href="css/freestyle.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+      <![endif]-->
+    
+  </head>
+
+  <body screen_capture_injected="true">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html" id="logo"><img src="img/logo-small-white.png" alt="write('now') logo"></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="battle.html">Battle</a></li>
+              <li><a href="freestyle.html">Freestyle</a></li>
+              <li><a href="vote.html">Vote</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+
+            <div id="user-nav" style="float:right">
+            </div>
+
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <h1>Writing Freestyle</h1>
+      <hr>
+      <div class="alert fade in">
+        <button type="button" class="close" data-dismiss="alert" href="#">&times;</button>
+        <h4 class="alert-heading">First time here?</h4>
+        In a writing freestyle, you have a topic and time limit to write a piece. There is no opponent and no voting - just relax and write!
+      </div>
+      <div class="well alert-info" id="info">
+        <a href="#" rel="tooltip" data-toggle="tooltip" data-placement="top" title data-original-title="Choose a category that you want to write about. You will get a random topic from that category.">Topic Category</a>:
+        <select class="selectpicker" data-style="btn-info" id="select-category">
+          <option>All</option>
+          <option>Nature</option>
+          <option>Technology</option>
+          <option>History</option>
+        </select>
+        <a href="#" rel="tooltip" id="time-limit" data-toggle="tooltip" data-placement="top" title data-original-title="Choose how long you want to write for.">Time Limit</a>:
+        <select class="selectpicker" data-style="btn-info" id="select-time">
+          <option>1 min</option>
+          <option>5 min</option>
+          <option>10 min</option>
+        </select>
+        <button class="btn btn-primary" id="start">START!</button>
+      </div>
+      <div class="row">
+        <div class="span12">
+          <h3>You: <span id="username">loading name...</span></h3>
+          <textarea disabled id="you-box" placeholder="Start writing here..."></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <button class="btn btn-primary span12" id="submit" disabled="disabled" submit="false"><h4>Submit</h4>(enabled when time starts)</button>
+      </div>
+      <hr>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="resources/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-button.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-typeahead.js"></script>
+
+    <script src="resources/bootstrap-select/bootstrap-select.js" type="text/javascript" charset="utf-8"></script>
+
+</body></html>

@@ -1,0 +1,17 @@
+{
+  "name": "node-example",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.1.x",
+    "stylus": "0.31.0",
+	"jade": "0.27.7",
+	"mongodb": "1.2.7",
+	"moment" : "1.7.2",
+	"emailjs": "0.3.3"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)http://twitter.github.io/bootstrap/examples/starter-template.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>write('now')</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+
+    <!-- Scripts -->
+    <script src="resources/jquery/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/username.js" type="text/javascript" charset="utf-8"></script>
+    
+    <!-- Le styles -->
+    <link href="resources/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="resources/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="resources/bootstrap-select/bootstrap-select.css" rel="stylesheet">
+    <link href="css/results.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+      <![endif]-->
+    
+  </head>
+
+  <body screen_capture_injected="true">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html" id="logo"><img src="img/logo-small-white.png" alt="write('now') logo"></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="battle.html">Battle</a></li>
+              <li><a href="freestyle.html">Freestyle</a></li>
+              <li><a href="vote.html">Vote</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+
+            <div id="user-nav" style="float:right">
+            </div>
+
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h1>Results</h1>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="span12">
+          <div class="well alert-success" id="info"><div width='100%' style='font-size:2em;font-weight:bold;text-align:center;margin-bottom:15px'>You win!</div><div width='100%' style='font-size:1em;font-weight:bold;text-align:center'><a href='battle.html'>Play Again</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span12">
+          <div class="well alert-info"><div width='100%' style='font-size:2em;font-weight:bold'><span style='text-align:left'>Topic: The Alaskan Flying Mantis Bear</span><span style='float:right; position:relative'>Total Time: 5 minutes</span></span></div></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span6">
+          <h3>You: <a href="#">Mob Riller</a></h3>
+          <div class="well" id="you-box">The Kodiak bear, also known as the Kodiak brown bear or the Alaskan flying mantis bear, occupies the islands of the Kodiak Archipelago in South-Western Alaska. Its name in the Alutiiq language is Taquka-aq. <br><br>It is the largest subspecies of brown bear and one of the two largest members of the bear family, the other being the polar bear. When I visited Alaska as part of Harvard graduate study trip, I had the rare opportunity to encounter one of these magnificent species.
+          </div>
+          
+        </div>
+        
+        <div class="span6">
+          <h3>Opponent: <a href="#">Zaoqi Hhang</a></h3>
+          <div class="well" id="opp-box">foo<br><br>bar
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span6">
+          <div class="well alert-success" style="font-size:2em;font-weight:bold;text-align:center">17 votes
+          </div>
+        </div>
+        <div class="span6">
+          <div class="well alert-error" style="font-size:2em;font-weight:bold;text-align:center">5 votes
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span6">
+            <h3 style="text-align:center">3 Comments:</h3>
+        </div>
+        <div class="span6">
+            <h3 style="text-align:center">1 Comment:</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span6">
+          <div class="well">
+            <b>User: <a href="#">Yimothy Tang</a></b><br>
+            This a a brilliant and masterful piece!
+            <br><br>
+            <b>User: <a href="#">Ash Ketchum</a></b><br>
+            Wow. This almost makes me want an Teddiursa.
+            <br><br>
+            <b>User: <a href="#">Timberly Koy</a></b><br>
+            You should sell your stories.
+          </div>
+        </div>
+        <div class="span6">
+                  <div class="well">
+                    <b>User: <a href="#">Llara Ciu</a></b><br>
+                    I know I'm going against the grain, but this piece really evokes some raw, primitive being.
+                  </div>
+                </div>
+      </div>
+      
+      <hr>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="resources/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-button.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="resources/bootstrap/js/bootstrap-typeahead.js"></script>
+
+    <script src="resources/bootstrap-select/bootstrap-select.js" type="text/javascript" charset="utf-8"></script>
+
+</body></html>
